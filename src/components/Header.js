@@ -1,6 +1,6 @@
 import logo from "../images/logo.png"
 import Search from "./Search";
-const Header = ({  }) => {
+const Header = () => {
   return (
     <header>
       <nav>

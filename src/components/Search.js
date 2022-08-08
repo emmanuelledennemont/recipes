@@ -1,5 +1,5 @@
+
 import images from "../images/bckg.jpg";
-import Bar from "./Bar";
 const Search = () => {
   return (
     <>
@@ -9,7 +9,10 @@ const Search = () => {
       </div>
 
         <div className="restaurant-item container">
-          <Bar />
+        <div className="search-bar">
+      <h3>What would you like to cook?</h3>
+        <input type="search" placeholder="Recipes, ingredients, Trends ..."/>
+      </div>
         </div>
    
     </>
